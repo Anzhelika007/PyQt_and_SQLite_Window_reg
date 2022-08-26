@@ -1,0 +1,1 @@
+# PyQt_and_SQLite_Window_reg
