@@ -1,0 +1,220 @@
+<? версия xml = " 1.0 " кодировка = " UTF-8 " ?>
+< Версия пользовательского интерфейса  = " 4.0 " >
+< класс >MainWindow</ класс >
+< класс виджета  = " QMainWindow " имя = " MainWindow " > 
+  < имя свойства  = " геометрия " >
+   < прямоугольник >
+    < х >0</ х >
+    < г >0</ г >
+    < ширина >581</ ширина >
+    < высота >430</ высота >
+   </ прямоугольник >
+  </ свойство >
+  < имя свойства  = " WindowTitle " >
+   < строка >MainWindow</ строка >
+  </ свойство >
+  < имя свойства  = " таблица стилей " >
+   < string  notr = " true " > цвет фона: # 524b4b;</ string >
+  </ свойство >
+  < класс виджета  = " QWidget " имя = " centralwidget " > 
+   < класс виджета  = " QPushButton " имя = " pushButton " > 
+    < имя свойства  = " геометрия " >
+     < прямоугольник >
+      < х >150</ х >
+      < y >280</ y >
+      < ширина >291</ ширина >
+      < высота >61</ высота >
+     </ прямоугольник >
+    </ свойство >
+    < имя свойства  = " шрифт " >
+     < шрифт >
+      < размер точки >24</ размер точки >
+     </ шрифт >
+    </ свойство >
+    < имя свойства  = " таблица стилей " >
+     < string  notr = " true " >QPushButton{
+	радиус границы: 6px;
+	цвет фона: #7d7a7a;
+	граница: 2px сплошная #fc8383;
+	белый цвет;
+}
+
+QPushButton::hover{
+	радиус границы: 6px;
+	цвет фона: #fc8383;
+	черный цвет;
+}
+
+QPushButton::нажал{
+	радиус границы: 6px;
+	цвет фона: #ff4545;
+	черный цвет;
+}
+</ строка >
+    </ свойство >
+    < имя свойства  = " текст " >
+     < строка >кнопка</ строка >
+    </ свойство >
+   </ виджет >
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>541</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>label</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>label_2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>lineEdit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: white;
+color: black;</string>
+    </property>
+    <property name="placeholderText">
+     <string>lineEdit_2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>370</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: #7d7a7a;
+	border: 2px solid #fc8383;
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: #fc8383;
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #ff4545;
+	color: black;
+}
+</ строка >
+    </ свойство >
+    < имя свойства  = " текст " >
+     < строка >pushButton_2</ строка >
+    </ свойство >
+   </ виджет >
+  </ виджет >
+</ виджет >
+< ресурсы />
+< соединения />
+</ интерфейс >
+Нижний колонтитул
+© 2022 GitHub, Inc.
+Нижний колонтитул навигации
+Условия
+Конфиденциальность
+Безопасность
+Статус
+Документы
+Связаться с GitHub
+Цены
+API
+Подготовка
+Блог
+О
+
